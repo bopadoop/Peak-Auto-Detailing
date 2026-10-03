@@ -1007,7 +1007,7 @@ export default function Home() {
     <p>© 2026 Peak Auto Detailing</p>
 
     <p className="text-xs italic text-white">
-      Name: Kat,Mitsuri,Honestia • Phone# +1 (720) 340-9287 • Email: ????????
+      Name: Jason Dutch Nathaniel Jr. • Phone# +1 (720) 340-9287 • Email: ????????
     </p>
 
     <p>Professional detailing. Wherever you are.</p>
