@@ -158,73 +158,17 @@ export default function Home() {
             <div className="absolute left-1/2 top-1/2 h-32 w-64 -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-400/20 blur-3xl" />
 
             {/* Stylized car */}
-            <svg
-              viewBox="0 0 500 300"
-              className="relative w-full drop-shadow-[0_20px_30px_rgba(0,0,0,0.7)]"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M70 190L100 125C108 107 126 96 146 94L325 94C348 94 368 105 380 124L425 190"
-                stroke="white"
-                strokeWidth="8"
-                strokeLinecap="round"
-              />
+            <div className="relative w-full min-h-[320px] overflow-hidden rounded-3xl bg-zinc-950 sm:min-h-[380px] lg:min-h-[450px]">
+  <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_45%,rgba(34,211,238,0.16),transparent_55%)]" />
 
-              <path
-                d="M70 190H425V220C425 232 415 242 403 242H97C82 242 70 230 70 215V190Z"
-                fill="#18181B"
-                stroke="white"
-                strokeWidth="8"
-              />
+  <div className="absolute inset-x-0 bottom-0 h-32 bg-[linear-gradient(to_top,rgba(34,211,238,0.08),transparent)]" />
 
-              <path
-                d="M160 103L142 157H365L340 103"
-                fill="#0E7490"
-                fillOpacity="0.45"
-                stroke="white"
-                strokeWidth="7"
-              />
-
-              <circle
-                cx="135"
-                cy="225"
-                r="34"
-                fill="#09090B"
-                stroke="white"
-                strokeWidth="8"
-              />
-
-              <circle
-                cx="365"
-                cy="225"
-                r="34"
-                fill="#09090B"
-                stroke="white"
-                strokeWidth="8"
-              />
-
-              <path
-                d="M88 183H412"
-                stroke="#22D3EE"
-                strokeWidth="6"
-                strokeLinecap="round"
-              />
-
-              <path
-                d="M105 160H135"
-                stroke="#22D3EE"
-                strokeWidth="8"
-                strokeLinecap="round"
-              />
-
-              <path
-                d="M365 160H395"
-                stroke="#22D3EE"
-                strokeWidth="8"
-                strokeLinecap="round"
-              />
-            </svg>
+  <img
+    src="/peak-car.png"
+    alt="Black sports car in a premium garage"
+    className="absolute inset-0 z-10 h-full w-full object-contain drop-shadow-[0_25px_40px_rgba(0,0,0,0.8)]"
+  />
+</div>
           </div>
         </div>
 
@@ -238,13 +182,7 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Number */}
-        <div className="absolute right-6 top-6 text-right">
-          <p className="text-xs font-bold uppercase tracking-widest text-zinc-500">
-            Detail
-          </p>
-          <p className="text-3xl font-black text-white">01</p>
-        </div>
+        
       </div>
     </div>
   </div>
